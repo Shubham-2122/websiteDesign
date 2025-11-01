@@ -1,0 +1,10 @@
+$size : 100px;
+$color : green;
+
+h1{
+    font-size: $size - 50;
+    background: $color;
+    padding: $size/4;
+}
+
+// opdatros +,-,*,/

@@ -1,0 +1,27 @@
+#budle(){
+    .btn{
+        padding: 10px 20px;
+        background-color: lightcoral;
+        color: white;
+        border: 2px solid green;
+        &:hover{
+            background: aquamarine;
+        }
+    }
+     .btn2{
+        padding: 10px 20px;
+        background-color: rgb(128, 147, 240);
+        color: white;
+        border: 2px solid rgb(9, 0, 128);
+        &:hover{
+            background: rgb(150, 255, 127);
+        }
+    }
+}
+
+.btn1{
+    #budle.btn();
+}
+.btn2{
+    #budle.btn2();
+}

@@ -1,0 +1,7 @@
+h1 {
+  border: 5px solid gold;
+}
+.main {
+  border: 6px solid rgba(0, 0, 0, 0.6);
+  border-style: dashed;
+}

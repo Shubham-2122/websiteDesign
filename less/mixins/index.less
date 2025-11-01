@@ -1,0 +1,15 @@
+.border(){
+    border: 5px solid gold;
+}
+.border2(@size,@color){
+    border: @size solid @color;
+}
+
+h1{
+    .border();
+}
+
+.main{
+    .border2(6px, rgba(0,0,0,0.6));
+    border-style: dashed;
+}

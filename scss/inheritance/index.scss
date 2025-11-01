@@ -1,0 +1,11 @@
+%data {
+    border: 2px solid;
+    padding: 20px;
+    background-color: lightcoral;
+}
+
+h1{
+    @extend %data;
+    color: white;
+    
+}

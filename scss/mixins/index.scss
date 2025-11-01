@@ -1,0 +1,42 @@
+@mixin border(){
+    border: 5px solid green;
+}
+
+@mixin border2($size,$color){
+    border: $size solid $color
+}
+
+@mixin flexbox($data){
+    display: flex;
+    justify-content: $data;
+}
+
+h1{
+    @include border();
+}
+h2{
+    @include border();
+}
+h3{
+    @include border2(10px, blue)
+}
+.main{
+    @include border2(5px,rgba(0,0,0,.5));
+    border-style: dashed;
+}
+
+.main2{
+    @include flexbox(space-between);
+    .box{
+        height: 200px;
+        width: 200px;
+        @include border2(4px , red )
+    }
+    @media only screen and (min-width:576px) {
+        display: block;
+        .box{
+            width: 300px;
+            margin: 10px auto;
+        }
+    }
+}
