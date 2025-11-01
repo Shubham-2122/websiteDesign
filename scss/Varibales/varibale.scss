@@ -1,0 +1,16 @@
+//  $varibname : value
+$bg-color : blue;
+$color : lightgreen;
+$font : 40px;
+
+h1{
+    background-color: $bg-color;
+    color: $color;
+    padding: $font;
+}
+
+h2{
+    background-color: $color;
+    color: $bg-color;
+    font-size: $font;
+}

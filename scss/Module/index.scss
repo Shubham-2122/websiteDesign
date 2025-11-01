@@ -1,0 +1,5 @@
+@use 'nav';
+
+h1{
+    font-size: nav.$font;
+}

@@ -1,0 +1,31 @@
+$bg-color : red;
+$color : white;
+
+.list{
+    list-style: none;
+    li{
+        display: inline-block;
+        background-color: $bg-color;
+        padding: 10px 20px;
+        a{
+            text-decoration: none;
+            color: $color;
+        }
+    }
+    :hover{
+            background-color: aqua;
+        }
+}
+
+.nav{
+    list-style: none;
+    li{
+        background-color: lightcoral;
+        border: 2px solid;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
+
